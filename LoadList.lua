@@ -1,7 +1,7 @@
 local insert = table.insert
 local inserted1, inserted2, inserted3 = false, false, false
 
-function DBMVPSoundEventsPack() -- Register Victory sounds to DBM.Victory table
+function DBMVPCustomEventsPack() -- Register Victory sounds to DBM.Victory table
 	if inserted1 then
 		return
 	end
@@ -14,7 +14,7 @@ function DBMVPSoundEventsPack() -- Register Victory sounds to DBM.Victory table
 	inserted1 = true
 end
 
-function DBMDPSoundEventsPack() -- Register Defeat sounds to DBM.Defeat Table
+function DBMDPCustomEventsPack() -- Register Defeat sounds to DBM.Defeat Table
 	if inserted2 then
 		return
 	end
@@ -27,7 +27,7 @@ function DBMDPSoundEventsPack() -- Register Defeat sounds to DBM.Defeat Table
 	inserted2 = true
 end
 
-function DBMMPSoundEventsPack() -- Register Music to DBM.Music Table
+function DBMMPCustomEventsPack() -- Register Music to DBM.Music Table
 	if inserted3 then
 		return
 	end
