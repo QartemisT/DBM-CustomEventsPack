@@ -1,4 +1,4 @@
-﻿## Interface: 80300
+## Interface: 80300
 ## Title:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0Custom Events Pack|r
 ## DefaultState: enabled
 ## RequiredDeps: DBM-Core
